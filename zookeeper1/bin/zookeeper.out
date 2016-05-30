@@ -1,0 +1,56 @@
+2016-05-27 15:47:03,414 [myid:] - INFO  [main:QuorumPeerConfig@103] - Reading configuration from: /home/hadoop/ZooKeeperCluster/zookeeper1/bin/../conf/zoo.cfg
+2016-05-27 15:47:03,433 [myid:] - INFO  [main:QuorumPeer$QuorumServer@149] - Resolved hostname: 127.0.0.1 to address: /127.0.0.1
+2016-05-27 15:47:03,434 [myid:] - INFO  [main:QuorumPeer$QuorumServer@149] - Resolved hostname: 127.0.0.1 to address: /127.0.0.1
+2016-05-27 15:47:03,434 [myid:] - INFO  [main:QuorumPeer$QuorumServer@149] - Resolved hostname: 127.0.0.1 to address: /127.0.0.1
+2016-05-27 15:47:03,435 [myid:] - INFO  [main:QuorumPeerConfig@331] - Defaulting to majority quorums
+2016-05-27 15:47:03,440 [myid:1] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2016-05-27 15:47:03,440 [myid:1] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2016-05-27 15:47:03,440 [myid:1] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2016-05-27 15:47:03,474 [myid:1] - INFO  [main:QuorumPeerMain@127] - Starting quorum peer
+2016-05-27 15:47:03,493 [myid:1] - INFO  [main:NIOServerCnxnFactory@89] - binding to port 0.0.0.0/0.0.0.0:4561
+2016-05-27 15:47:03,505 [myid:1] - INFO  [main:QuorumPeer@1019] - tickTime set to 2000
+2016-05-27 15:47:03,505 [myid:1] - INFO  [main:QuorumPeer@1039] - minSessionTimeout set to -1
+2016-05-27 15:47:03,506 [myid:1] - INFO  [main:QuorumPeer@1050] - maxSessionTimeout set to -1
+2016-05-27 15:47:03,506 [myid:1] - INFO  [main:QuorumPeer@1065] - initLimit set to 10
+2016-05-27 15:47:03,520 [myid:1] - INFO  [main:QuorumPeer@533] - currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-05-27 15:47:03,522 [myid:1] - INFO  [main:QuorumPeer@548] - acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation
+2016-05-27 15:47:03,533 [myid:1] - INFO  [ListenerThread:QuorumCnxManager$Listener@534] - My election bind port: /127.0.0.1:7771
+2016-05-27 15:47:03,546 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:QuorumPeer@774] - LOOKING
+2016-05-27 15:47:03,548 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:FastLeaderElection@818] - New election. My id =  1, proposed zxid=0x0
+2016-05-27 15:47:03,562 [myid:1] - INFO  [WorkerSender[myid=1]:QuorumCnxManager@199] - Have smaller server identifier, so dropping the connection: (2, 1)
+2016-05-27 15:47:03,562 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 1 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2016-05-27 15:47:03,567 [myid:1] - INFO  [/127.0.0.1:7771:QuorumCnxManager$Listener@541] - Received connection request /127.0.0.1:49277
+2016-05-27 15:47:03,568 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 0 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2016-05-27 15:47:03,569 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 0 (n.sid), 0x1 (n.peerEpoch) LOOKING (my state)
+2016-05-27 15:47:03,573 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2016-05-27 15:47:03,575 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 0 (n.sid), 0x1 (n.peerEpoch) LOOKING (my state)
+2016-05-27 15:47:03,577 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LOOKING (n.state), 2 (n.sid), 0x0 (n.peerEpoch) LOOKING (my state)
+2016-05-27 15:47:03,578 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LEADING (n.state), 2 (n.sid), 0x1 (n.peerEpoch) LOOKING (my state)
+2016-05-27 15:47:03,578 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:QuorumPeer@844] - FOLLOWING
+2016-05-27 15:47:03,582 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Learner@86] - TCP NoDelay set to: true
+2016-05-27 15:47:03,585 [myid:1] - INFO  [WorkerReceiver[myid=1]:FastLeaderElection@600] - Notification: 1 (message format version), 2 (n.leader), 0x0 (n.zxid), 0x1 (n.round), LEADING (n.state), 2 (n.sid), 0x1 (n.peerEpoch) FOLLOWING (my state)
+2016-05-27 15:47:03,592 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:zookeeper.version=3.4.8--1, built on 02/06/2016 03:18 GMT
+2016-05-27 15:47:03,593 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:host.name=jeakeven
+2016-05-27 15:47:03,593 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:java.version=1.8.0_77
+2016-05-27 15:47:03,596 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2016-05-27 15:47:03,596 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8u5-sun/jre
+2016-05-27 15:47:03,596 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:java.class.path=/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../build/classes:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../build/lib/*.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../lib/slf4j-log4j12-1.6.1.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../lib/slf4j-api-1.6.1.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../lib/netty-3.7.0.Final.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../lib/log4j-1.2.16.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../lib/jline-0.9.94.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../zookeeper-3.4.8.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../src/java/lib/*.jar:/home/hadoop/ZooKeeperCluster/zookeeper1/bin/../conf:.:/usr/lib/jvm/java-8u5-sun/lib:/usr/lib/jvm/java-8u5-sun/jre/lib
+2016-05-27 15:47:03,597 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2016-05-27 15:47:03,597 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2016-05-27 15:47:03,597 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:java.compiler=<NA>
+2016-05-27 15:47:03,597 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:os.name=Linux
+2016-05-27 15:47:03,597 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:os.arch=amd64
+2016-05-27 15:47:03,597 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:os.version=3.13.0-32-generic
+2016-05-27 15:47:03,598 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:user.name=hadoop
+2016-05-27 15:47:03,598 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:user.home=/home/hadoop
+2016-05-27 15:47:03,598 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Environment@100] - Server environment:user.dir=/home/hadoop/ZooKeeperCluster/zookeeper1/bin
+2016-05-27 15:47:03,600 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:ZooKeeperServer@170] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /home/hadoop/ZooKeeperCluster/zookeeper1/tmp/log/version-2 snapdir /home/hadoop/ZooKeeperCluster/zookeeper1/tmp/data/version-2
+2016-05-27 15:47:03,600 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Follower@63] - FOLLOWING - LEADER ELECTION TOOK - 52
+2016-05-27 15:47:03,601 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:QuorumPeer$QuorumServer@149] - Resolved hostname: 127.0.0.1 to address: /127.0.0.1
+2016-05-27 15:47:03,608 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Learner@329] - Getting a snapshot from leader
+2016-05-27 15:47:03,613 [myid:1] - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:FileTxnSnapLog@240] - Snapshotting: 0x100000000 to /home/hadoop/ZooKeeperCluster/zookeeper1/tmp/data/version-2/snapshot.100000000
+2016-05-27 15:47:07,895 [myid:1] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:4561:NIOServerCnxnFactory@192] - Accepted socket connection from /127.0.0.1:33243
+2016-05-27 15:47:07,975 [myid:1] - INFO  [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:4561:NIOServerCnxn@827] - Processing srvr command from /127.0.0.1:33243
+2016-05-27 15:47:07,979 [myid:1] - INFO  [Thread-1:NIOServerCnxn@1008] - Closed socket connection for client /127.0.0.1:33243 (no session established for client)
+2016-05-27 15:47:53,128 [myid:1] - WARN  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:4561:Follower@118] - Got zxid 0x100000001 expected 0x1
+2016-05-27 15:47:53,130 [myid:1] - INFO  [SyncThread:1:FileTxnLog@199] - Creating new log file: log.100000001
